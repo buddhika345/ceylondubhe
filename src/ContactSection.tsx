@@ -69,17 +69,7 @@ const ContactSection = () => {
               </p>
             </div>
 
-            <div className="rounded-xl bg-slate-950/60 p-4 border border-orange-400/20">
-              <p className="text-xs uppercase tracking-[0.18em] text-orange-300 mb-1">
-                Warehouse
-              </p>
-              <p className="text-sm text-slate-300">
-                55, New Nuge Road,<br />Peliyagoda, Sri Lanka
-              </p>
-              <p className="mt-2 text-sm">
-                <span className="text-orange-400">Hotline:</span> 011 426 5020
-              </p>
-            </div>
+        
 
             <p className="text-xs text-slate-400">
               Business hours support available for sales, service, and dealer
@@ -96,7 +86,7 @@ const ContactSection = () => {
 >
   {/* WhatsApp card */}
   <motion.a
-    href="https://wa.me/94XXXXXXXXX"
+    href="https://wa.me/+94742391772"
     target="_blank"
     rel="noopener noreferrer"
     whileHover={{ scale: 1.03 }}
@@ -128,7 +118,7 @@ const ContactSection = () => {
 
   {/* Email card */}
   <motion.a
-    href="mailto:your-email@example.com"
+    href="mailto:ceylondubhe@gmail.com"
     whileHover={{ scale: 1.03 }}
     whileTap={{ scale: 0.97 }}
     className="flex items-center gap-4 rounded-2xl border border-cyan-500/50 bg-gradient-to-r from-cyan-600/25 to-cyan-400/10 p-4 shadow-[0_0_25px_rgba(8,145,178,0.65)] cursor-pointer"
